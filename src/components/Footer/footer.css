@@ -1,0 +1,72 @@
+footer {
+  background: linear-gradient(
+    to left,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 7rem;
+}
+
+.footer a {
+  font-weight: 600;
+}
+.footer_logo {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  display: block;
+  text-shadow: 2px 2px 3px rgb(49, 45, 45) !important;
+  color: var(--color-bg) !important;
+}
+footer ul li a {
+  color: var(--color-bg) !important;
+  text-shadow: 1px 1px 2px rgb(49, 45, 45) !important;
+}
+.permalinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 3rem;
+}
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.footer__socials a {
+  background: var(--color-bg);
+  color: var(--color-white) !important;
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1solid transparent;
+}
+
+.footer__socials a:hover {
+  background: transparent;
+  color: var(--color-bg);
+  border-color: var(--color-bg);
+}
+
+.footer__copyright {
+  margin-bottom: 4rem !important;
+  color: var(--color-bg);
+}
+
+/* *************Media Query (Amall Devices)************** */
+@media screen and (max-width: 660px) {
+  .permalinks {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer__socials {
+    margin-bottom: 2.6rem;
+  }
+}
