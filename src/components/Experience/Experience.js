@@ -86,7 +86,7 @@ const Experience = () => {
     // },
   ]);
   return (
-    <section id="experience" className="flex flex-col">
+    <section id="experience" className="flex flex-col px-4 lg:px-0">
       <h5>what Skills I Have .. </h5>
       <h2> Skills and Experience</h2>
       <div className="flex flex-col gap-4 ">
@@ -161,7 +161,7 @@ const Experience = () => {
           </div>
           <div className="text-sm px-6 text-gray-500">
             using React js , Type script , Tailwind css , css , framer motion ,
-            Handless Ui
+            Headless Ui
           </div>
           <div className="flex flex-col items-starts">
             <div className="text-gray-200 flex items-center gap-x-1">

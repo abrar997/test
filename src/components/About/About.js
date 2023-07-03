@@ -9,7 +9,7 @@ const About = () => {
     <section id="about" className="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
-      <div className="container about__container flex items-center justify-items-center">
+      <div className="container about__container flex flex-col gap-12 lg:gap-12 items-center justify-items-center lg:flex">
         <div className="about__me">
           <div className="about__me-img">
             <img src={require("../../assets/me.jpg")} alt="/" width="99%" />

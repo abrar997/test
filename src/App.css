@@ -120,9 +120,10 @@ a:hover {
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
+    padding: 4px;
   }
-  section {
-    margin-top: 6rem;
+  body {
+    overflow-x: hidden;
   }
 }
 /* *************Media Query (Small Devices)************** */
@@ -132,5 +133,8 @@ a:hover {
   }
   section > h2 {
     margin-bottom: 2rem;
+  }
+  body {
+    overflow-x: hidden;
   }
 }

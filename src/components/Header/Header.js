@@ -17,8 +17,12 @@ const Header = () => {
         <div>
           <HeaderSocials />
         </div>
-        <div className="me">
-          <img src={require("../../assets/2.png")} alt="my-image" />
+        <div className="me flex items-center justify-center">
+          <img
+            src={require("../../assets/2.png")}
+            alt="/"
+            className="object-cover"
+          />
         </div>
         <a href="#contact" className="scroll-down">
           Scroll Down

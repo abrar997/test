@@ -48,9 +48,6 @@ header {
   overflow: hidden;
   padding: 1rem 3rem 0 0;
 }
-.me img {
-  width: 130%;
-}
 
 /* **************** Scroll Down ***************** */
 .scroll-down {
@@ -72,7 +69,7 @@ header {
 /* *************Media Query (Small Devices)************** */
 @media screen and (max-width: 600px) {
   header {
-    height: 110vh;
+    height: 80vh;
   }
   .header__Social,
   .scroll-down {

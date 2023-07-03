@@ -4,7 +4,7 @@ import "./portfolio.css";
 import { data } from "./data";
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="flex flex-col gap-y-2">
+    <section id="portfolio" className="flex flex-col gap-y-2 px-4 lg:px-0">
       <h5>My Work</h5>
       <div className="container portfolio__container">
         {data.map((item) => {
