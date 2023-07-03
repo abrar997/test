@@ -148,7 +148,7 @@ const Experience = () => {
           </div>
         </div>
         <div
-          className="container px-6 rounded-2xl p-4 "
+          className="container px-6 rounded-2xl p-4 mt-3 "
           style={{ background: "#2c2c6c" }}
         >
           <h1 className=" text-blue-400"> Experience</h1>

@@ -4,15 +4,13 @@ import "./portfolio.css";
 import { data } from "./data";
 const Portfolio = () => {
   return (
-    <section id="portfolio">
+    <section id="portfolio" className="flex flex-col gap-y-2">
       <h5>My Work</h5>
-      <h2>Portfolio</h2>
       <div className="container portfolio__container">
         {data.map((item) => {
-          // {data.map({id,name,img,skills,github,Demo})} instead of above code
           return (
             <article className="portfolio_item" key={item.id}>
-              <div className="portfolio_item-image">
+              <div className="portfolio_item-image overflow-hidden transition-all duration-300">
                 <img src={item.img} alt={item.name} />
               </div>
               <div className="portfolio_item-content">
@@ -21,11 +19,21 @@ const Portfolio = () => {
               </div>
               <div className="portfolio_item-cta">
                 {/* Github link */}
-                <a href={item.Github} className="btn" target="_blank">
+                <a
+                  href={item.Github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Github
                 </a>
                 {/* Demo link */}
-                <a href={item.Demo} className="btn btn-primary" target="_blank">
+                <a
+                  href={item.Demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Demo
                 </a>
               </div>

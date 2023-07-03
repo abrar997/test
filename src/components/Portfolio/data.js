@@ -1,7 +1,7 @@
 import img1 from "../../assets/projects/market.png";
 import img2 from "../../assets/projects/insta.png";
 import img3 from "../../assets/projects/teach.png";
-import img4 from "../../assets/projects/gap.png";
+// import img4 from "../../assets/projects/gap.png";
 import img5 from "../../assets/projects/falcon.png";
 // import img6 from "../../assets/projects/company.png";
 import img7 from "../../assets/projects/admin.png";
@@ -41,14 +41,14 @@ export const data = [
     Demo: " https://abrar997.github.io/finally/",
   },
 
-  {
-    id: 4,
-    name: "Gap Market Template to buy Home decore",
-    skills: "HTML , CSS , Java Script , Mdbootstrap4  ",
-    img: img4,
-    Github: "https://github.com/abrar997/gaps.git",
-    Demo: "https://suspicious-shannon-5d2c7f.netlify.app/",
-  },
+  // {
+  //   id: 4,
+  //   name: "Gap Market Template to buy Home decore",
+  //   skills: "HTML , CSS , Java Script , Mdbootstrap4  ",
+  //   img: img4,
+  //   Github: "https://github.com/abrar997/gaps.git",
+  //   Demo: "https://suspicious-shannon-5d2c7f.netlify.app/",
+  // },
 
   // {
   //   id: 7,
